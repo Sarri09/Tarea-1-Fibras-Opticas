@@ -1,0 +1,56 @@
+# --- MATLAB / Simulink autosaves & backups ---
+*.asv
+*.m~
+*.autosave
+*.bak
+*.old
+*.tmp
+*.swp
+*.swo
+matlab_crash_dump.*/
+history.m
+matlabprefs.mat
+local*.mat
+
+# --- Simulink caches & generated code ---
+slprj/
+sccprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*.slxc            # Simulink cache files
+*.tlc
+*.rpt
+*.mk
+*.mex*            # compiled MEX (mexa64, mexmaci64, etc.)
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.lib
+*.pdb
+*.exe
+
+# --- Coverage / Advisor / SDI / temp work dirs ---
+slcov_output/
+mdl_cov/
+.sdi/
+sdi_repository/
+work/
+
+# --- Logs ---
+*.log
+
+# --- OS junk (macOS / Windows) ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
